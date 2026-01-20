@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GymPro Fitness Club</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="logo">GYM <span>PRO</span></div>
+
+        <nav class="navbar" id="navbar">
+            <ul>
+                <li><a href="#home"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#services"><i class="fa fa-dumbbell"></i> Services</a></li>
+                <li><a href="#trainers"><i class="fa fa-user"></i> Trainers</a></li>
+                <li><a href="#pricing"><i class="fa fa-tag"></i> Pricing</a></li>
+                <li><a href="#contact"><i class="fa fa-phone"></i> Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hamburger" id="hamburger">
+            <i class="fa fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- WHATSAPP BUTTON -->
+    <a href="javascript:void(0)" class="whatsapp-btn" onclick="openWhatsAppFreeTrial()"
+        aria-label="WhatsApp Free Trial">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <span class="hero-badge">🔥 7-Day FREE Trial </span>
+
+            <h1>
+                BUILT, NOT <span>BOUGHT</span>
+            </h1>
+
+            <p>
+                Real transformations. Certified trainers.<br />
+                No shortcuts. No excuses.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="https://wa.me/919326065474?text=Hi%20I%20am%20interested%20in%20a%20FREE%20trial"
+                    class="btn-primary" target="_blank">
+                    🔥 Book Free Trial
+                </a>
+
+                <a href="#pricing" class="btn-secondary">
+                    View Plans
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="why-choose">
+        <div class="container">
+            <h2 class="section-title">
+                WHY CHOOSE <span>GYM PRO</span>
+            </h2>
+            <p class="section-subtitle">
+                Not just a gym. A results-driven transformation experience.
+            </p>
+
+            <div class="cards-wrapper">
+                <!-- Card 1 -->
+                <div class="why-card">
+                    <div class="card-image">
+                        <img src="gi1.jpg" alt="Expert Coaching">
+                    </div>
+                    <div class="card-content">
+                        <h3>Elite Coaching</h3>
+                        <p>
+                            Certified trainers who track your form, progress,
+                            and results—not just reps.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="why-card featured">
+                    <div class="card-image">
+                        <img src="gi2.jpg" alt="Modern Equipment">
+                    </div>
+                    <div class="card-content">
+                        <h3>World-Class Equipment</h3>
+                        <p>
+                            Olympic-grade machines and free weights designed
+                            for strength, safety, and performance.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="why-card">
+                    <div class="card-image">
+                        <img src="gi3.jpg" alt="Results Driven Programs">
+                    </div>
+                    <div class="card-content">
+                        <h3>Proven Results</h3>
+                        <p>
+                            Fat loss, muscle gain, or strength—every program is
+                            structured and measurable.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+        <h2 data-animate>Our Services</h2>
+        <div class="service-container">
+
+            <div class="service-box" data-animate>
+                <img src="gi8.jpg" alt="">
+                <h3>Weight Training</h3>
+                <p>Build muscle and strength with our premium equipment.</p>
+            </div>
+
+            <div class="service-box" data-animate>
+                <img src="gi9.jpg" alt="">
+                <h3>Cardio Section</h3>
+                <p>High-intensity cardio machines for fat burning.</p>
+            </div>
+
+            <div class=" service-box" data-animate>
+                <img src="gi10.jpg" alt="">
+                <h3>Personal Coaching</h3>
+                <p>One-on-one training with certified fitness experts.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- TRAINERS -->
+    <section class="trainers" id="trainers">
+        <h2 data-animate>Meet Our Trainers</h2>
+        <div class="trainer-container">
+
+            <div class="trainer-card" data-animate>
+                <img src="gi4.jpg" alt="">
+                <h3>Aman Sharma</h3>
+                <p>Strength & Conditioning</p>
+            </div>
+
+            <div class="trainer-card" data-animate>
+                <img src="gi5.jpg" alt="">
+                <h3>Rohit Singh</h3>
+                <p>Personal Trainer</p>
+            </div>
+
+            <div class="trainer-card" data-animate>
+                <img src="gi6.jpg" alt="">
+                <h3>Neha Patel</h3>
+                <p>Zumba & Yoga Expert</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="pricing" id="pricing">
+        <h2 data-animate>Membership Plans</h2>
+        <div class="pricing-container">
+
+            <div class="price-box" data-animate>
+                <h3>Basic</h3>
+                <p class="price">₹999 / month</p>
+                <ul>
+                    <li>Gym Access</li>
+                    <li>Cardio Area</li>
+                    <li>General Support</li>
+                </ul>
+                <a href="  javascript:void(0)" class="btn-primary" onclick="openWhatsAppFreeTrial()">
+                    Join Now
+                </a>
+
+            </div>
+
+            <div class="price-box highlight" data-animate>
+                <h3>Standard</h3>
+                <p class="price">₹1499 / month</p>
+                <ul>
+                    <li>All Zones Access</li>
+                    <li>Trainer Assistance</li>
+                    <li>Diet Tips</li>
+                </ul>
+                <a href="javascript:void(0)" class="btn-primary" onclick="openWhatsAppFreeTrial()">
+                    Join Now
+                </a>
+
+            </div>
+
+            <div class="price-box" data-animate>
+                <h3>Premium</h3>
+                <p class="price">₹2499 / month</p>
+                <ul>
+                    <li>Personal Trainer</li>
+                    <li>Diet Plan</li>
+                    <li>Transformation Program</li>
+                </ul>
+                <a href="javascript:void(0)" class="btn-primary" onclick="openWhatsAppFreeTrial()">
+                    Join Now
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- TRIAL FORM -->
+    <section class="trial" id="trial">
+        <h2 data-animate>Get A Free Trial</h2>
+        <form class="trial-form" onsubmit="submitFreeTrial(event)">
+            <input type="text" id="trialName" placeholder="Full Name" required>
+            <input type="tel" id="trialPhone" placeholder="Phone Number" required>
+            <select id="trialGoal" required>
+                <option value="">Select Goal</option>
+                <option>Weight Loss</option>
+                <option>Muscle Gain</option>
+                <option>General Fitness</option>
+            </select>
+            <button class="btn-primary">Submit</button>
+        </form>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <h2 data-animate>Contact Us</h2>
+        <p data-animate>Govandi, Mumbai 400043</p>
+        <p data-animate><i class="fa fa-phone"></i> +91 9326065474</p>
+        <iframe data-animate src="https://maps.google.com/maps?q=govandi&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <!-- Column 1: Brand & Tagline -->
+            <div class="footer-col">
+                <div class="footer-logo">GYM <span>PRO</span></div>
+                <p class="footer-tagline">Transform Your Fitness</p>
+                <p class="footer-desc">Join. Transform. Dominate.</p>
+            </div>
+
+            <!-- Column 2: Contact Info -->
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><i class="fa fa-map-marker"></i> Plot No. 3, Road No. 1<br>Shivaji Nagar, Govandi West<br>Mumbai
+                        - 400043</li>
+                    <li><i class="fa fa-phone"></i> +91 9326065474</li>
+                    <li><i class="fa fa-envelope"></i> info@gympro.in</li>
+                </ul>
+            </div>
+
+            <!-- Column 3: Business Hours -->
+            <div class="footer-col">
+                <h4>Business Hours</h4>
+                <ul>
+                    <li><strong>Mon - Sat</strong><br>6:00 AM - 10:00 PM</li>
+                    <li><strong>Sunday</strong><br>7:00 AM - 3:00 PM</li>
+                </ul>
+            </div>
+
+            <!-- Column 4: Social Media -->
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+                <p class="footer-cta">Built for Champions</p>
+            </div>
+
+        </div>
+
+        <!-- Copyright Bar -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 Gym Pro. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js?v=2"></script>
+    <script>
+        const cards = document.querySelectorAll('.feature-card');
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = 1;
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, { threshold: 0.2 });
+
+        cards.forEach(card => {
+            card.style.opacity = 0;
+            card.style.transform = 'translateY(40px)';
+            observer.observe(card);
+        });
+    </script>
+
+</body>
+
+</html>
